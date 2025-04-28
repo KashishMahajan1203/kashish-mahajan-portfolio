@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <!-- REMIXICONS  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- SWIPER CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER  -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link active-link">Hello</a>
+            </li>
+            <li>
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li>
+              <a href="#resume" class="nav__link">Resume</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="nav__link">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__link">Contact </a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-fill"></i>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-fill"></i>
+        </div>
+      </nav>
+    </header>
+    <!-- MAIN  -->
+    <main class="main">
+      <!-- HOME  -->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/profile.jpg" alt="" class="home__img" />
+          <div class="home__data">
+            <h1 class="home__name">Kashish Mahajan_</h1>
+            <p class="home__work">Software Engineer</p>
+            <dl class="home__list">
+              <dt>AGE:</dt>
+              <dd>22</dd>
+              <dt>PHONE:</dt>
+              <dd>9315906241</dd>
+              <dt>EMAIL:</dt>
+              <dd>kashishmahajan878@gmail.com</dd>
+              <dt>ADDRESS:</dt>
+              <dd>DELHI-39 INDIA</dd>
+            </dl>
+            <div class="home__socials">
+              <a
+                href="https://github.com/KashishMahajan1203"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-fill"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kashish-mahajan-0591ba2b4/"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/mahajan_kashish_.06/?hl=en"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- HELLO  -->
+      <section class="hello section container">
+        <h2 class="section__title">Hi_</h2>
+        <p class="hello__details text-lg">
+          Hey there! I'm Kashish Mahajan, your friendly neighborhood Software
+          Engineer. I turn coffee into code and crazy ideas into sleek, scalable
+          web applications. Whether it's building dynamic frontends or powerful
+          backends, I love crafting experiences that not only work flawlessly
+          but feel magical. When I'm not squashing bugs or shipping features,
+          you’ll probably find me brainstorming the next big thing.
+        </p>
+        <a
+          href="assets/img/KASHISH_MAHAJAN_RESUME.pdf"
+          class="button button--flex text-sm"
+          target="_blank"
+        >
+          <i class="ri-download-line"></i>DOWNLOAD CV
+        </a>
+      </section>
+      <!-- SERVICES  -->
+      <section class="services section container" id="services">
+        <h2 class="section__title">Services_</h2>
+        <div class="services__container grid">
+          <div class="services__item">
+            <div class="icon__box">
+              <img
+                src="assets/img/web-design.png"
+                alt=""
+                class="services__icon"
+              />
+              <div class="services__dot">
+                <span class="dot"> </span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">WEB DESIGN</h3>
+            <p class="services__details">
+              I design ✨ clean, modern, and user-friendly websites that don't
+              just look good — they feel good. 🎯 From eye-catching layouts 🎨
+              to smooth user experiences 🚀, I turn ideas into pixel-perfect
+              realities that leave a lasting impression. 💻🌟
+            </p>
+          </div>
+          <div class="services__item">
+            <div class="icon__box">
+              <img src="assets/img/laptop.png" alt="" class="services__icon" />
+              <div class="services__dot">
+                <span class="dot"> </span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">WEB DEVELOPEMENT</h3>
+            <p class="services__details">
+              I build ⚡ fast, 📱 responsive, and 📈 scalable websites using the
+              magic of code ✨. Whether it’s crafting powerful backends 🛠️ or
+              smooth, dynamic frontends 🎨, I bring ideas to life with clean,
+              efficient, and modern development practices. 🚀
+            </p>
+          </div>
+          <div class="services__item">
+            <div class="icon__box">
+              <img
+                src="assets/img/paint-palette.png"
+                alt=""
+                class="services__icon"
+              />
+              <div class="services__dot">
+                <span class="dot"> </span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">CREATIVE DESIGN</h3>
+            <p class="services__details">
+              I blend imagination 💡 with strategy 🧠 to create designs that not
+              only look stunning 😍 but tell a story 📖. From vibrant visuals 🎨
+              to seamless layouts 🖥️, I turn creativity into experiences that
+              truly stand out ✨.
+            </p>
+          </div>
+          <div class="services__item">
+            <div class="icon__box">
+              <img
+                src="assets/img/smartphone-call.png"
+                alt=""
+                class="services__icon"
+              />
+              <div class="services__dot">
+                <span class="dot"></span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">RESPONSIVE DESIGN</h3>
+            <p class="services__details">
+              I make sure your website looks amazing and works perfectly on
+              every device — big screens, small screens, and everything in
+              between. 🌟 Because great design should never be limited by screen
+              size! 💻📱
+            </p>
+          </div>
+          <div class="services__item">
+            <div class="icon__box">
+              <img
+                src="assets/img/verified.png"
+                alt=""
+                class="services__icon"
+              />
+              <div class="services__dot">
+                <span class="dot"> </span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">BRANDING IDENTITY</h3>
+            <p class="services__details">
+              I craft unique and memorable brand identities that resonate with
+              your audience. From logos 🖋️ to color palettes 🎨, I create a
+              visual language that tells your brand's story and makes a lasting
+              impression. 🚀
+            </p>
+          </div>
+          <div class="services__item">
+            <div class="icon__box">
+              <img
+                src="assets/img/operator.png"
+                alt=""
+                class="services__icon"
+              />
+              <div class="services__dot">
+                <span class="dot"> </span>
+              </div>
+            </div>
+            <h3 class="services__title text-lg">24/7 SUPPORT</h3>
+            <p class="services__details">
+              I’m always here for you — day or night 🌙. Whether it’s a quick
+              question or urgent assistance ⚡, I provide reliable support to
+              ensure everything runs smoothly. 🌟
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- RESUME  -->
+      <section class="section container" id="resume">
+        <h2 class="section__title">Resume_</h2>
+        <div class="resume__container grid">
+          <div class="resume__data">
+            <h3 class="resume__title text-sm">EDUCATION</h3>
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">
+                INDIRA GANDHI NATIONAL OPEN UNIVERSITY
+              </h3>
+              <p class="resume__date text-sm">2025-PRESENT</p>
+              <p class="resume__description text-lg">M.COM</p>
+            </div>
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">
+                INDIRA GANDHI NATIONAL OPEN UNIVERSITY
+              </h3>
+              <p class="resume__date text-sm">2021-2024</p>
+              <p class="resume__description text-lg">B.COM</p>
+            </div>
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">
+                CENTRAL BOARD OF SECONDARY EDUCATION
+              </h3>
+              <p class="resume__date text-sm">2020-2021</p>
+              <p class="resume__description text-lg">INTERMEDIATE</p>
+            </div>
+          </div>
+          <!-- EMPLOYMENT SECTION FOR FUTURE USE  -->
+          <!-- <div class="resume__data">
+            <h3 class="resume__title text-sm">EMPLOYMENT</h3>
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">
+                INDIRA GANDHI NATIONAL OPEN UNIVERSITY
+              </h3>
+              <p class="resume__date text-sm">2025-PRESENT</p>
+              <p class="resume__description text-lg">M.COM</p>
+            </div>
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">
+                INDIRA GANDHI NATIONAL OPEN UNIVERSITY
+              </h3>
+              <p class="resume__date text-sm">2021-2024</p>
+              <p class="resume__description text-lg">B.COM</p>
+            </div>
+            <div class="resume__item">
+              <h3 class="resume__subtitle text-sm">
+                CENTRAL BOARD OF SECONDARY EDUCATION
+              </h3>
+              <p class="resume__date text-sm">2020-2021</p>
+              <p class="resume__description text-lg">INTERMEDIATE</p>
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <!-- SKILLS  -->
+      <section class="section container">
+        <h2 class="section__title">Skills_</h2>
+
+        <div class="skills__container grid">
+          <div class="skills__content">
+            <h3 class="skills__title text-sm">FRONTEND</h3>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">HTML</p>
+                  <span class="skills__number text-sm">90%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 90%"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">CSS</p>
+                  <span class="skills__number text-sm">80%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 80%"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">JAVASCRIPT</p>
+                  <span class="skills__number text-sm">70%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 70%"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">REACT JS</p>
+                  <span class="skills__number text-sm">85%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 85%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title text-sm">BACKEND</h3>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">NODE JS</p>
+                  <span class="skills__number text-sm">80%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 80%"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">PYTHON</p>
+                  <span class="skills__number text-sm">75%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 75%"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">MYSQL</p>
+                  <span class="skills__number text-sm">85%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 85%"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">MONGODB</p>
+                  <span class="skills__number text-sm">70%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 70%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__content">
+            <h3 class="skills__title text-sm">OTHER SKILLS</h3>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">NEXT JS</p>
+                  <span class="skills__number text-sm">80%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 80%"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">GIT</p>
+                  <span class="skills__number text-sm">88%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 88%"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">IOT</p>
+                  <span class="skills__number text-sm">70%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 70%"></span>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <p class="skills__name text-sm">FLEXBOX</p>
+                  <span class="skills__number text-sm">89%</span>
+                </div>
+                <div class="skills__bar">
+                  <span class="skills__percentage" style="width: 89%"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS  -->
+      <section class="work section container" id="portfolio">
+        <h2 class="section__title">WORK_</h2>
+        <div class="project__categories">
+          <button class="category__btn text-xs active-work" data-filter=".all">
+            ALL
+          </button>
+          <button class="category__btn text-xs" data-filter=".basic">
+            BASIC
+          </button>
+          <button class="category__btn text-xs" data-filter=".advanced">
+            ADVANCED
+          </button>
+          <!-- <button class="category__btn text-sm"></button> -->
+        </div>
+        <div class="projects__container grid">
+          <div class="project__item grid mix all advanced">
+            <img src="assets/img/project1.png" alt="" class="project__img" />
+            <div class="project__data">
+              <h3 class="project__title text-lg">E-COMMERCE WEBSITE</h3>
+              <p class="project__description">
+                An e-commerce website is an online platform that enables
+                businesses and individuals to buy and sell products or services
+                over the internet. It provides features such as product
+                listings, shopping carts, secure payment gateways, user
+                authentication, and order management.
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>REACT JS</li>
+                <li>GIT</li>
+              </ul>
+              <a
+                href="https://quickcart-website.netlify.app/"
+                class="project__link text-sm"
+                target="_blank"
+                >www.Ecommerce.com</a
+              >
+            </div>
+          </div>
+
+          <div class="project__item grid mix all advanced">
+            <img src="assets/img/project2.png" alt="" class="project__img" />
+            <div class="project__data">
+              <h3 class="project__title text-lg">MONEY MANAGER</h3>
+              <p class="project__description">
+                Money Manager is a simple and intuitive React-based application
+                that allows users to track their income and expenses
+                efficiently. With real-time updates, the app automatically
+                adjusts your income and expenses as new transactions are
+                added—making personal finance easier than ever.
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>REACT JS</li>
+                <li>GIT</li>
+              </ul>
+              <a
+                href="https://money-manage-12.netlify.app/"
+                class="project__link text-sm"
+                target="_blank"
+                >www.MoneyManager.com</a
+              >
+            </div>
+          </div>
+
+          <div class="project__item grid mix all advanced">
+            <img src="assets/img/project3.png" alt="" class="project__img" />
+            <div class="project__data">
+              <h3 class="project__title text-lg">GEN AI ANALYTICS DASHBOARD</h3>
+              <p class="project__description">
+                This project is a React-based dashboard prototype for a Gen AI
+                Analytics tool, enabling users to input natural language queries
+                and visualize results in a clean, modern UI. It includes
+                features like AI-powered query suggestions, query history
+                tracking, and data visualization using charts.
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>REACT JS</li>
+                <li>GIT</li>
+                <li>AI</li>
+              </ul>
+              <a
+                href="https://gen-ai-dashboard.netlify.app/"
+                class="project__link text-sm"
+                target="_blank"
+                >www.gen-ai-dashboard.com</a
+              >
+            </div>
+          </div>
+
+          <div class="project__item grid mix all advanced">
+            <img src="assets/img/project4.png" alt="" class="project__img" />
+            <div class="project__data">
+              <h3 class="project__title text-lg">JOBBY APP</h3>
+              <p class="project__description">
+                Jobby App is a responsive job search platform that allows users
+                to browse and filter job listings based on salary and type of
+                employment. The app also includes secure authentication features
+                such as login and logout functionality.
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>REACT JS</li>
+                <li>NODE JS</li>
+                <li>GIT</li>
+              </ul>
+              <a
+                href="https://jobby-app-12.netlify.app/"
+                class="project__link text-sm"
+                target="_blank"
+                >www.jobby-app.com</a
+              >
+            </div>
+          </div>
+
+          <div class="project__item grid mix all advanced">
+            <img src="assets/img/project5.png" alt="" class="project__img" />
+            <div class="project__data">
+              <h3 class="project__title text-lg">
+                INVENTORY MANAGEMENT SYSTEM
+              </h3>
+              <p class="project__description">
+                A responsive dashboard to track, manage, and update inventory in
+                real-time, featuring intuitive UI, dynamic stock monitoring, and
+                seamless product management.
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>REACT JS</li>
+
+                <li>GIT</li>
+              </ul>
+              <a
+                href="https://kashish-mahajan-assignment.netlify.app/"
+                class="project__link text-sm"
+                target="_blank"
+                >www.inventory-sytem.com</a
+              >
+            </div>
+          </div>
+
+          <div class="project__item grid mix all basic">
+            <img src="assets/img/project6.png" alt="" class="project__img" />
+            <div class="project__data">
+              <h3 class="project__title text-lg">REWARD DASHBOARD</h3>
+              <p class="project__description">
+                Reward Dashboard is a powerful platform designed to provides
+                users with seamless interaction, efficient data management, and
+                an intuitive user experience. Appversal offers a reliable and
+                scalable solution.
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>REACT JS</li>
+
+                <li>GIT</li>
+              </ul>
+              <a
+                href="https://reward-dashboard12.netlify.app/dashboard"
+                class="project__link text-sm"
+                target="_blank"
+                >www.reward-dashboard.com</a
+              >
+            </div>
+          </div>
+
+          <div class="project__item grid mix all basic">
+            <img src="assets/img/project7.png" alt="" class="project__img" />
+            <div class="project__data">
+              <h3 class="project__title text-lg">SNEAKERS SHOES WEBSITE</h3>
+              <p class="project__description">
+                A stylish and responsive sneaker store built with HTML and CSS,
+                showcasing clean layouts, smooth navigation, and a modern
+                shopping experience.
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+              </ul>
+              <a
+                href="https://sneakers-shop-website.netlify.app/"
+                class="project__link text-sm"
+                target="_blank"
+                >www.sneakers-shop-website.com</a
+              >
+            </div>
+          </div>
+
+          <div class="project__item grid mix all basic">
+            <img src="assets/img/project8.png" alt="" class="project__img" />
+            <div class="project__data">
+              <h3 class="project__title text-lg">BARBAR SHOP WEBSITE</h3>
+              <p class="project__description">
+                I designed and developed a modern, stylish Barber Shop website
+                focused on creating a bold online presence. The site features a
+                sleek homepage, service listings, booking functionality, and a
+                gallery showcasing styles and cuts. Built with a user-first
+                approach, it combines responsive design, smooth animations, and
+                easy navigation to deliver a premium experience for visitors
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+              </ul>
+              <a
+                href="https://barbar-shop-12.netlify.app/"
+                class="project__link text-sm"
+                target="_blank"
+                >www.barbar-shop-website.com</a
+              >
+            </div>
+          </div>
+          <div class="project__item grid mix all basic">
+            <img src="assets/img/project9.png" alt="" class="project__img" />
+            <div class="project__data">
+              <h3 class="project__title text-lg">NETFLIX CLONE WEBSITE</h3>
+              <p class="project__description">
+                Built a responsive Netflix clone using HTML, CSS, and
+                JavaScript, featuring dynamic UI, smooth scrolling, and a clean
+                layout for an immersive browsing experience.
+              </p>
+              <h4 class="project__stack text-xs">USED STACK:</h4>
+              <ul class="tags text-sm">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+              </ul>
+              <a
+                href="https://web-netlfix12.netlify.app/"
+                class="project__link text-sm"
+                target="_blank"
+                >www.netflix-clone-website.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS  -->
+      <!-- <section class="testimonials section">
+        <div class="testimonial__bg">
+          <div class="testimonial__icon">
+            <i class="ri-double-quotes-r"></i>
+          </div>
+          <div class="swiper testimonial__container container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide testimonial__item">
+                <h3 class="author__name text-lg">Antonio Anderson</h3>
+                <p class="author__project">Project: E-Commerce Website</p>
+                <div class="ruler"></div>
+                <p class="testimonial__description text-lg">
+                  Up or well must less rent read walk so be. Easy sold at do
+                  hour sing spot. Any meant has cease too teh deca. Since party
+                  burst am it match. By or blushes between besides offices
+                  noisier as. Sending do brought winding compass in. Easy sold
+                  at do hour sing spot less rent read walk so be. Any meant has
+                  cease too the decay.
+                </p>
+              </div>
+              <div class="swiper-slide testimonial__item">
+                <h3 class="author__name text-lg">Antonio Anderson</h3>
+                <p class="author__project">Project: E-Commerce Website</p>
+                <div class="ruler"></div>
+                <p class="testimonial__description text-lg">
+                  Up or well must less rent read walk so be. Easy sold at do
+                  hour sing spot. Any meant has cease too teh deca. Since party
+                  burst am it match. By or blushes between besides offices
+                  noisier as. Sending do brought winding compass in. Easy sold
+                  at do hour sing spot less rent read walk so be. Any meant has
+                  cease too the decay.
+                </p>
+              </div>
+              <div class="swiper-slide testimonial__item">
+                <h3 class="author__name text-lg">Antonio Anderson</h3>
+                <p class="author__project">Project: E-Commerce Website</p>
+                <div class="ruler"></div>
+                <p class="testimonial__description text-lg">
+                  Up or well must less rent read walk so be. Easy sold at do
+                  hour sing spot. Any meant has cease too teh deca. Since party
+                  burst am it match. By or blushes between besides offices
+                  noisier as. Sending do brought winding compass in. Easy sold
+                  at do hour sing spot less rent read walk so be. Any meant has
+                  cease too the decay.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-button-next">
+              <img src="assets/img/arrow-next.svg" alt="" />
+            </div>
+            <div class="swiper-button-prev">
+              <img src="assets/img/arrow-prev.svg" alt="" />
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section> -->
+      <!-- CONTACT  -->
+      <section class="contact section" id="contact">
+        <div class="contact__content container">
+          <h2 class="section__title">Get in touch_</h2>
+          <div class="contact__container grid">
+            <div class="contact__info">
+              <dl class="contact__list">
+                <dt>Phone:</dt>
+                <dd>9315906241</dd>
+
+                <dt>Email:</dt>
+                <dd>kashishmahajan878@gmail.com</dd>
+              </dl>
+              <ul class="contact__socials">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/kashish-mahajan-0591ba2b4/"
+                    class="contact__social-link"
+                    target="_blank"
+                    >Linkedin</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/KashishMahajan1203"
+                    class="contact__social-link"
+                    target="_blank"
+                    >Github</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/mahajan_kashish_.06/?hl=en"
+                    class="contact__social-link"
+                    target="_blank"
+                    >Instagram</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="contact__form">
+              <p class="contact__form-title">Or just write me a letter here_</p>
+              <form action="" id="contact-form">
+                <div class="contact__input-div">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    class="contact__input"
+                    id="contact-name"
+                  />
+                </div>
+                <div class="contact__input-div">
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    class="contact__input"
+                    id="contact-email"
+                  />
+                </div>
+                <div class="contact__input-div">
+                  <textarea
+                    name="message"
+                    placeholder="Type the message here"
+                    class="contact__input textarea"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+                <p class="contact__message text-sm" id="contact-message">
+                  Message
+                </p>
+                <button type="submit" class="button contact__button">
+                  SEND
+                </button>
+              </form>
+              <p class="footer-copy">Made with 💗 by Kashish Mahajan</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- MIXITUP  -->
+    <script src="assets/js/mixitup.min.js"></script>
+    <!-- SWIPER JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- EMAIL JS  -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <!-- JS  -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
